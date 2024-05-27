@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background:rgb(62, 118, 161);
+}
+h4{
+  font-size:90%;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(231, 245, 255);
+}
+h5{
+  font-size: 150%;
+
+  margin-top: 5px;
+}
+h6{
+  font-size: 70%;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cityInput{
+  background-color:rgb(62, 118, 161);
+  color: white;
+  font-style: italic;
+  font-size: smaller;
+  border: solid 2px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 50%;
+  
+
+}
+button{
+  background-color:rgb(62, 118, 161);
+  color: white;
+  padding: 11px;
+  border:solid 2px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+.forecast-container {
+  color: white;
+  display:flex ;
+  text-align:center;
+  border: solid 2px;
+  border-radius: 15px;
+  margin: 10%;
+  background:rgba(136, 187, 231, 0.721);
+
+}
+
+.forecast-item img{
+  height: 150px;
+  width: 130px;
+}
+
+.forecast-item {
+
+  display:inline-flexbox;
+  
+  width: 300px;
+  padding: 10px;
+  
+
+}
+
+.today{
+  color: #fff;
+  font-size: 200%;
+  margin-left: 10%;
+  margin-right: 40%;
+
+
+}
+.current-weather-item{
+  padding: 5%;
+  border: solid 2px;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-right: 15%;
+  background:rgba(136, 187, 231, 0.721);
+  margin-top: 5%;
+  color: #fff;
+  margin-left: 13%;
+  
+}
+.current-weather-item img{
+  margin-left: 50%;
+}
+.current-weather-item p{
+  font-size: 300%;
+  font-weight: bolder;
+  color: #fff;
+  
+}
+h2{
+  text-align: left;
+  font-weight: lighter;
+  font-style: italic;
+
+}
